@@ -8,31 +8,64 @@
 
 
 body {
-	font-family: "CloisterBlack.ttf", arial, helvetica, sans-serif;
+	/*	font-family: "CloisterBlack.ttf", arial, helvetica, sans-serif;*/
+	font-family: 'Carrois Gothic', sans-serif;
 }
+
 /* ======================== LAYOUT RULES ======================== */ 
 
 .header {
-	width: 90%;
-	min-height: 100px;
-	position: fixed;
-	top: 0;
-	left: 5%;
+	margin: 0 auto;
+	padding-top: 54px;
+	width: 96%;
+	max-width: 1600px;
+	box-shadow: -1px 0 4px 0 #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
 }
 
 .nav-primary {
-
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 96%;
+	max-width: 1600px;
+	box-shadow: -1px 0 4px 0 #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
 }
 
-.nav-secondary {
-
+.ribbon {
+	position: fixed;
+	top: 55px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 96%;
+	background: #fff;
+	border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+	border-bottom: 1px solid #ccc;
+	box-shadow: -1px 2px 4px 0 #e2e2e2;
 }
+
+.ribbon-tabs:last-child {
+	border: none;
+}
+
 
 .container {
-	margin: 100px auto 0;
+	margin: 94px auto;
 	padding: 25px;
-	width: 90%;
-	min-height: 1000px;
+	width: 96%;
+	max-width: 1600px;
+  box-shadow: -1px 0 4px 0px #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
 }
 
 .content-header {
@@ -67,38 +100,172 @@ body {
 
 /* ========== MODULE - PRIMARY NAV ========== */
 
-.nav-links-container {
-	margin: 12px 0;
-	max-width: 400px;
-}
 
-.nav-menu-btn {
+.icon {
 	display: inline-block;
-	margin: 0 6px 0 -5px;
-	padding: 7px 9px;
-	min-width: 83px;
-	height: 14px;
-	background-color: #fff;
-	border: 1px solid #e2e2e2;
-	box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06); 
-	box-shadow: inset -1px -1px 1px 0 rgba(0,0,0,0.02);
-	border-radius: 3px;
+  vertical-align: middle;
+  margin-top: -1.5px;
+  line-height: 0px;
 }
 
-.nav-menu-btn {
+.span-text {
+	margin: 0 7px 0 5px;
+}
 
+.btn {
+		display: inline-block;
+		margin: 0 11px 0 -5px;
+		padding: 7px 9px;
+		height: 30px;
+		border-radius: 3px;
+	  background-color: #fff;
+	  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06); 
+		box-shadow: inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+    font-size: 0.6575rem;
+    line-height: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.nav-links-container {
+	float: left;
+	display: inline-block;
+	margin: 12px 0;
+	max-width: 300px;
 }
 
 .nav-links {
+	margin: 0 -9px;
 	height: 30px;
+	border: 1px solid transparent;
 }
 
+	.nav-menu-btn {
+		margin-left: -15px;
+	}
+
+	.nav-menu-icon {
+		display: inline-block;
+	  background-image: url(../img/sprite.svg);
+	  background-repeat: no-repeat;
+	  background-position: -443px -214px;
+	  width: 16px;
+	  height: 16px;
+	}
+
+	.nav-home-icon {
+		background-image: url("../img/sprite.svg");
+    background-repeat: no-repeat;
+    background-position: -51px -280px;
+    width: 16px;
+    height: 16px;
+	}
+
+	.nav-search-icon {
+		background-image: url("../img/sprite.svg");
+    background-repeat: no-repeat;
+    background-position: -357px -214px;
+    width: 16px;
+    height: 16px;
+    margin-top: -1px;
+	}
+
+.nav-logo {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 13px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	height: 32px;
+}
+
+	.nav-logo-img {
+		display: inline-block;
+	}
+
+
+.nav-options-container {
+	float: right;
+	display: inline-block;
+	margin: 12px 0;
+	max-width: 300px;
+}
+
+	.nav-options {
+		color: #fff;
+		margin: 0 2px 0 0;
+		max-width: 140.5px;
+	}	
+
+
+	.nav-options-btn {
+		vertical-align: middle;
+		margin-left: -4px;
+		border: none;
+	}
+
+	.nav-options-icon {
+		background-image: url("../img/sprite.svg");
+    background-repeat: no-repeat;
+    background-position: -494px -214px;
+    width: 16px;
+    height: 16px;
+	}
+
+.ribbon-list {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.ribbon-tabs {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 3px 0 5px 0;
+	padding: 9px 5px 2px 10px;
+	width: 260px;
+	border-right: 1px solid #e2e2e2;
+}
+
+
+	.ribbon-img-container {
+		float: left;
+		margin-right: 10px;
+	}
+
+
+	.ribbon-img {
+		width: 65px;
+		height: 65px;
+	}
+
+	.ribbon-title {
+		line-height: 14px;
+		font-size: .625rem;
+		text-transform: uppercase;
+		font-weight: normal;
+		letter-spacing: 0.675px;
+		white-space: wrap;
+	}
+
+	.ribbon-description {
+		display: block;
+		vertical-align: middle;
+		line-height: normal;
+		font-size: 0.8125rem;
+		font-weight: normal;
+		letter-spacing: 0.675px;
+		white-space: pre-wrap;
+	}
 
 
 .list {
 	width: 200px;
 	display: inline-block;
 }
+
 
 .list-tabs {
 
@@ -115,10 +282,23 @@ body {
 
 /* ======================== STATE RULES ======================== */ 
 
+.btn-border {
+	border: 1px solid #e2e2e2;
+}
+
+.btn-border-blue {
+	border: 1px solid #4d7b9f;
+}
+
+
+.bg-blue {
+	background-color: #6288a5;
+}
+
+
 .text-center {
 	text-align: center;
 }
-
 
 .clearfix:after {
   content: " ";

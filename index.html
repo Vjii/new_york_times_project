@@ -5,6 +5,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>New York Times Article Webpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link href="assets/CloisterBlack.ttf" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
@@ -13,25 +14,73 @@
 
   <body>
   	<header class="header">
-  		<nav class="nav-primary">
+  		<nav class="nav-primary clearfix">
   			<div class="nav-links-container">
   				<!-- <label class="nav-menu-label" for="nav-btn">
   					SECTIONS
   				</label> -->
-  				<button id="nav-btn" class="nav-menu-btn">
-  					SECTION
+  				<button id="nav-btn" class="btn btn-border nav-menu-btn">
+  					<i class="icon nav-menu-icon"></i>
+  					<span class="span-text">SECTIONS</span>
   				</button>
-  				<button class="nav-links">
-  					asdfdgf
+  				<button class="btn nav-links">
+  					<i class="icon nav-home-icon"></i>
+  					<span class="span-text">HOME</span>
   				</button>
-  				<button class="nav-links">
-  					asdfdgf
+  				<button class="btn nav-links">
+  					<i class="icon nav-search-icon"></i>
+  					<span class="span-text">SEARCH</span>
+  				</button>
+  			</div>
+  			<div class="nav-logo">
+  				<img class="nav-logo-img" src="img/logo.png">
+  			</div>
+  			<div class="nav-options-container">
+  				<!-- <label class="nav-menu-label" for="nav-btn">
+  					SECTIONS
+  				</label> -->
+  				<button class="btn btn-border-blue nav-options bg-blue">
+  					<span>SUBSCRIBE NOW</span>
+  				</button>
+  				<button class="btn btn-border-blue nav-options bg-blue">
+  					<span >SEARCH</span>
+  				</button>
+  				<button id="nav-btn" class="btn nav-options nav-options-btn">
+  					<i class="icon nav-options-icon"></i>
   				</button>
   			</div>
   		</nav>
-  		<nav class="nav-secondary">
-  			
-  		</nav>
+
+  		<div class="ribbon">
+  			<ul class="ribbon-list">
+	  				<li class="ribbon-tabs clearfix">
+		  					<div class="ribbon-img-container">
+		  						<img class="ribbon-img" src="img/stars.jpg" alt="Image of stars">
+		  					</div>
+		  					<h3 class="ribbon-title">Trilobites</h3>
+		  					<h2 class="ribbon-description">The Biggest Digital Map of the Cosmos Ever Made</h2>
+	  				</li>
+	  				<li class="ribbon-tabs clearfix">
+		  					<div class="ribbon-img-container">
+		  						<img class="ribbon-img" src="img/space.jpg" alt="Image of stars">
+		  					</div>
+		  					<h2 class="ribbon-description">SpaceX Says It’s Ready to Launch Rockets Again</h2>
+	  				</li>
+	  				<li class="ribbon-tabs clearfix">
+		  					<div class="ribbon-img-container">
+		  						<img class="ribbon-img" src="img/vera.jpg" alt="Image of stars">
+		  					</div>
+		  					<h2 class="ribbon-description">Vera Rubin, 88, Dies; Opened Doors in Astronomy, and for Women</h2>
+	  				</li>
+	  				<li class="ribbon-tabs clearfix">
+		  					<div class="ribbon-img-container">
+		  						<img class="ribbon-img" src="img/station.jpg" alt="Image of stars">
+		  					</div>
+		  					<h2 class="ribbon-description">John Glenn, American Hero of the Space Age, Dies at 95</h2>
+	  				</li>
+  			</ul>
+  		</div>
+
   	</header>
    	<main class="container">
    		<header class="content-header">
