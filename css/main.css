@@ -1,3 +1,139 @@
+/* ======================== BASE RULES ======================== */ 
+
+* { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 body {
+	font-family: "CloisterBlack.ttf", arial, helvetica, sans-serif;
+}
+/* ======================== LAYOUT RULES ======================== */ 
+
+.header {
+	width: 90%;
+	min-height: 100px;
+	position: fixed;
+	top: 0;
+	left: 5%;
+}
+
+.nav-primary {
 
 }
+
+.nav-secondary {
+
+}
+
+.container {
+	margin: 100px auto 0;
+	padding: 25px;
+	width: 90%;
+	min-height: 1000px;
+}
+
+.content-header {
+
+}
+
+.content-article {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.content-left {
+	float: left;
+	width: 50%;
+	}
+
+.content-right {
+	float: right;
+	width: 30%;
+}
+
+
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	min-height: 300px;
+}
+
+/* ======================== MODULE RULES ======================== */ 
+
+
+/* ========== MODULE - PRIMARY NAV ========== */
+
+.nav-links-container {
+	margin: 12px 0;
+	max-width: 400px;
+}
+
+.nav-menu-btn {
+	display: inline-block;
+	margin: 0 6px 0 -5px;
+	padding: 7px 9px;
+	min-width: 83px;
+	height: 14px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06); 
+	box-shadow: inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+	border-radius: 3px;
+}
+
+.nav-menu-btn {
+
+}
+
+.nav-links {
+	height: 30px;
+}
+
+
+
+.list {
+	width: 200px;
+	display: inline-block;
+}
+
+.list-tabs {
+
+}
+
+
+.img-diagram {
+	max-width: 100%;
+	border: 1px solid #000;
+}
+
+
+
+
+/* ======================== STATE RULES ======================== */ 
+
+.text-center {
+	text-align: center;
+}
+
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+
+/* ======================== THEME RULES ======================== */ 
+
+
+
+
+
