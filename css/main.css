@@ -209,7 +209,6 @@ a {
 			max-width: 140.5px;
 		}	
 
-
 		.nav-options-btn {
 			vertical-align: middle;
 			margin-left: -4px;
@@ -459,13 +458,102 @@ a {
 	margin: 50px 0 0 60px;
 }
 
-.article-text {
-	margin-top: 1rem;
-	font-size: 20px;
+		.article-text {
+		margin-top: 1rem;
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+.article-sidebar {
+	max-width: 300px;
+	margin: 50px 0 0 60px;
 }
 
+	.sidebar-comments-container {
+		margin-top: 100px;
+		font-family: Arial, Helvetica;
+	}
 
 
+		.sidebar-comments-icon-2 {
+	    display: inline-block;
+	    line-height: 0;
+	    vertical-align: middle;
+	    font-style: normal;
+	    position: relative;
+	    transition: background-color 0.3s;
+	    width: 20px;
+	    height: 13px;
+	    background: #879cb4;
+	    border-radius: 1px;
+	    margin: 0 3px 0 0;
+		}
+
+		.sidebar-comments-icon-2:after {
+	    transition: border-color 0.3s;
+	    content: '';
+	    position: absolute;
+	    left: 45%;
+	    border-style: solid;
+	    border-color: #879cb4 transparent;
+	    display: block;
+	    width: 0;
+	    bottom: -4px;
+	    border-width: 4px 0 0 4px;
+		}
+
+
+		.sidebar-comments-list {
+			padding-bottom: .75rem;
+			margin-bottom: .75rem;
+			border-bottom: 1px solid #ccc;
+		}
+
+			.sidebar-comments-tabs {
+				margin-top: 1rem;
+				line-height: 16px;
+			}
+
+			.sidebar-comments-tabs:first-child {
+				margin-top: .75rem;
+			}
+
+				.sidebar-comments-title {
+					display: inline-block;
+					vertical-align: middle;
+					line-height: 0;
+					font-size: 12px;
+					color: #326891;
+					letter-spacing: -0.5px;
+				}
+
+					.sidebar-comments-author-bar {
+						margin-top: 10px;
+						font-size: 12px;
+				}
+
+					.sidebar-comments-author {
+						font-weight: bold;
+						color: #000;
+					}
+
+				.sidebar-comments-date {
+					margin-left: 8px;
+					color: #bbb;
+				}
+
+				.sidebar-comments {
+					margin-top: 2.5px;
+
+					font-size: 13px;	
+					color: #999;
+				}
+
+				.sidebar-comments-more {
+					font-size: 10px;
+					letter-spacing: -0.5px;
+					color: #326891;
+				}
 
 /* ======================== STATE RULES ======================== */ 
 
@@ -507,7 +595,6 @@ a {
 	float: right;
 }
 
-
 .clearfix:after {
   content: " ";
   display: block;
@@ -516,14 +603,17 @@ a {
   visibility: hidden;
 }
 
-
 .center-vertically {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
+.margin-vertical-lg {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 
+}
 
 /* ======================== THEME RULES ======================== */ 
 
