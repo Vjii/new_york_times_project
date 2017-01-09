@@ -1,0 +1,29 @@
+[33mcommit 980a5f84133a89d1f813c876c60a96d8a5324a00[m
+Author: Jan Pilik <snyshuem@gmail.com>
+Date:   Tue Jan 3 21:23:58 2017 +0100
+
+    Insert social/login/comments icons in the main header
+
+[33mcommit 0bf8d8dcee0001ada87d77f48bd6bbd23de85d26[m
+Author: Jan Pilik <snyshuem@gmail.com>
+Date:   Tue Jan 3 19:14:23 2017 +0100
+
+    Add container for the main section, fill main header elements
+
+[33mcommit 8c40d76738c74511d16da0a368a0fe5941e02699[m
+Author: Jan Pilik <snyshuem@gmail.com>
+Date:   Tue Jan 3 17:00:35 2017 +0100
+
+    Change ribbon container to position fixed (CSS)
+
+[33mcommit e4f422124f73dd5218f5a7fd2d5a70ad565af043[m
+Author: Jan Pilik <snyshuem@gmail.com>
+Date:   Tue Jan 3 16:52:33 2017 +0100
+
+    Make and style the ribbon under nav
+
+[33mcommit a078567a0106d753752676b781e4f26abac89534[m
+Author: Jan Pilik <snyshuem@gmail.com>
+Date:   Thu Dec 29 15:47:13 2016 +0100
+
+    Start project, copy skeleton.
