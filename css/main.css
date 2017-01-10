@@ -139,7 +139,9 @@ a {
 }
 
 .nav-links-container {
-	float: left;
+	position: relative;
+	left: -8px;
+	z-index: 1000;
 	display: inline-block;
 	margin: 12px 0;
 	max-width: 300px;
@@ -151,9 +153,6 @@ a {
 	border: 1px solid transparent;
 }
 
-	.nav-menu-btn {
-		margin-left: -15px;
-	}
 
 	.nav-menu-icon {
 		display: inline-block;
@@ -667,7 +666,6 @@ a {
 
 .more-news {
 	width: 630px;
-	margin-bottom: 150px;
 }
 
 	.more-news-headline {
@@ -785,7 +783,6 @@ a {
 	margin: 150px auto 0;
 	padding: 0;
 	width: 1025px;
-	height: 1000px;
 	border-top: 1px solid #ccc;
 	white-space: nowrap;
 }
@@ -797,8 +794,13 @@ a {
 
 	.col-2 {
 		display: inline-block;
-		width: calc(1019px / 6);
+		width: calc(1019px / 7);
 		vertical-align: top;
+		min-height: 420px;
+	}
+
+	.col-2:not(:last-child) {
+		margin-right: 17.5px;
 	}
 
 	.index-tabs:first-child {
@@ -809,6 +811,66 @@ a {
 		margin-top: 10px;
 		max-width: calc((1025px / 6) - 30px);
 	}
+
+
+.index-menu-links {
+	content: " ";
+
+}
+
+
+.index-home-delivery:before {
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url('../img/sprite.png') no-repeat -220px -55px;
+	width: 16px;
+	height: 14px;
+
+}
+
+.index-digital-subscriptions:before {
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url('../img/sprite.png') no-repeat -35px -280px;
+	width: 14px;
+	height: 16px;
+}
+
+.index-times-insider:before {
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url('../img/sprite.png') no-repeat -112px -280px;
+	width: 16px;
+	height: 16px;
+}
+
+.index-crossword:before {
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+  background: url('../img/sprite.png') no-repeat -17px -110px;
+	width: 16px;
+	height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================== STATE RULES ======================== */ 
@@ -866,9 +928,10 @@ a {
 	float: right;
 }
 
-.clearfix {
-	overflow: hidden;
-	zoom: 1;
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
 }
 
 .center-vertically {
@@ -966,10 +1029,16 @@ a {
 	font-size: 13px;
 }
 
-.border-right {
-	border-right: 1px solid #eee;
+.border-left {
+	border-left: 1px solid #eee;
 }
 
-.padding-left {
-	
+.padding-left-small {
+	padding-left: 10px;
+}
+
+
+.index-menu-links {
+	font-weight: bold;
+	font-size: 17px;
 }
