@@ -91,7 +91,6 @@ a {
 	width: 30%;
 }
 
-
 .main-footer {
 	margin: 30px auto 0;
 	padding: 5px 0 10px 0;
@@ -144,7 +143,7 @@ a {
 	  background-color: #fff;
 	  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06); 
 		box-shadow: inset -1px -1px 1px 0 rgba(0,0,0,0.02);
-    font-size: 0.6575rem;
+    font-size: 11px;
     line-height: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -238,7 +237,6 @@ a {
 
 /* ========== MODULE - RIBBON ========== */
 
-
 .ribbon-list {
 	overflow: hidden;
 	white-space: nowrap;
@@ -258,7 +256,7 @@ a {
 
 		.ribbon-title {
 			line-height: 14px;
-			font-size: .625rem;
+			font-size: 10px;
 			text-transform: uppercase;
 			font-weight: normal;
 			letter-spacing: 0.675px;
@@ -267,7 +265,7 @@ a {
 
 		.ribbon-description {
 			line-height: normal;
-			font-size: 0.8125rem;
+			font-size: 12px;
 			font-weight: normal;
 			letter-spacing: 0.675px;
 			white-space: pre-wrap;
@@ -294,17 +292,16 @@ a {
 }
 
 	.article-category {
-		font-size: 0.7825rem;
+		font-size: 13px;
 		font-weight: bold;
 	}
 
 	.article-title {
 		padding: 30px 0 15px 0px;
-		font-size: 1.8rem;
+		font-size: 32px;
 		font-style: italic;
 		border-bottom: 1px solid #ccc;
 	}
-
 
 .article-author-container {
 	max-width: 40%;
@@ -320,7 +317,6 @@ a {
 		font-size: 13px;
 		letter-spacing: -1px;
 	}
-
 
 	.social-list {
 	}
@@ -640,7 +636,6 @@ a {
 	border-top: 1px solid #000;
 }
 
-
 .article-caption {
 	margin-bottom: 3rem;
 }
@@ -690,7 +685,6 @@ a {
 			width: 195px;
 			height: 130px;
 		}
-
 
 .recommended-area:before {
 	content: " ";
