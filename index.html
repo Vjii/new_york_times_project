@@ -2,18 +2,15 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>New York Times Article Webpage</title>
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-
   </head>
-
   <body>
-  	<header class="header clearfix">
-  		<nav class="nav-primary clearfix">
+  	<header class="header">
+  		<nav class="nav-primary">
   			<div class="nav-links-container">
   				<button id="nav-btn" class="btn btn-border nav-menu-btn">
   					<i class="icon nav-menu-icon"></i>
@@ -32,9 +29,6 @@
   				<img class="nav-logo-img" src="img/logo.png">
   			</div>
   			<div class="nav-options-container">
-  				<!-- <label class="nav-menu-label" for="nav-btn">
-  					SECTIONS
-  				</label> -->
   				<button class="btn btn-border-blue nav-options bg-blue">
   					<span>SUBSCRIBE NOW</span>
   				</button>
@@ -48,7 +42,7 @@
   		</nav>
   		<div class="ribbon">
   			<ul class="ribbon-list">
-	  				<li class="ribbon-tabs clearfix">
+	  				<li class="ribbon-tabs">
 		  					<div class="ribbon-img-container">
 		  						<img class="ribbon-img" src="img/stars.jpg" alt="Image of stars">
 		  					</div>
@@ -84,10 +78,11 @@
   			</ul>
   		</div>
   	</header>
+
    	<div class="main-page">
-   		<main class="main-container">
-   			<article class="article">
-   				<header class="content-header">
+   		<main class="main-container clearfix">
+   			<article class="article clearfix">
+   				<header class="content-header clearfix">
 	   				<h2 class="article-category"> SPACE & COSMOS</h2>
 	   				<h1 class="article-title">Space Ripples Reveal Big Bang’s Smoking Gun
 						</h1>
@@ -181,31 +176,31 @@
 						<p class="article-text">
 						Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.
 						</p>
-	   			</div>
+	   			</div> <!-- article-body -->
 	   			<div class="article-sidebar float-left clearfix">
-	   					<div class="sidebar-comments-container">
-			   				<i class="sidebar-comments-icon-2"></i>
-			   				<h5 class="sidebar-comments-title"><b>RECENT COMMENTS</b></h5>
-				   			<ul class="sidebar-comments-list">
-				   				<li class="sidebar-comments-tabs">
-				   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">Rob</span><span class="sidebar-comments-date">March 20, 2014</span></p>
-			   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
-				   				</li>
-				   				<li class="sidebar-comments-tabs">
-				   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">mptyler340</span><span class="sidebar-comments-date">March 20, 2014</span></p>
-			   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
-				   				</li>
-				   				<li class="sidebar-comments-tabs">
-				   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">Southern Boy </span><span class="sidebar-comments-date">March 20, 2014</span></p>
-			   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
-				   				</li>
-				   			</ul>
-				   			<p class="sidebar-comments-more">SEE ALL COMMENTS</p>
-			   			</div>
+   					<div class="sidebar-comments-container">
+		   				<i class="sidebar-comments-icon-2"></i>
+		   				<h5 class="sidebar-comments-title"><b>RECENT COMMENTS</b></h5>
+			   			<ul class="sidebar-comments-list">
+			   				<li class="sidebar-comments-tabs">
+			   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">Rob</span><span class="sidebar-comments-date">March 20, 2014</span></p>
+		   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
+			   				</li>
+			   				<li class="sidebar-comments-tabs">
+			   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">mptyler340</span><span class="sidebar-comments-date">March 20, 2014</span></p>
+		   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
+			   				</li>
+			   				<li class="sidebar-comments-tabs">
+			   					<p class="sidebar-comments-author-bar"><span class="sidebar-comments-author">Southern Boy </span><span class="sidebar-comments-date">March 20, 2014</span></p>
+		   						<p class="sidebar-comments">The spark before the big band ( they need a better scientific name than this one) so a spark in nothingness of a nothingness spark created a...</p>
+			   				</li>
+			   			</ul>
+			   			<p class="sidebar-comments-more">SEE ALL COMMENTS</p>
+		   			</div>
 	   			</div><!-- article-sidebar  -->
    			</article>
 
-   			<div class="img-diagram-container img-border-bottom">
+   			<div class="img-diagram-container img-border-bottom clearfix">
    				<h1 class="img-title">The Theory of Inflation</h1>
    				<p class="margin-l-0 img-description img-diagram-description">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
    				<img class="img-diagram" src="img/diagram.png">
@@ -238,7 +233,6 @@
    				<div class="diagram-description-container diagram-pos-6 diagram-wider">
    					<p class="diagram-description">
 					<strong>INFLATION</strong>  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
-
    					</p>
    				</div>
    				<div class="diagram-description-container diagram-pos-7 diagram-wider">
@@ -251,7 +245,7 @@
 					<strong>EXPANSION</strong>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
    					</p>
    				</div>
-   			</div> <!-- diagram -->
+   			</div> <!-- img-diagram -->
    			
    			<article class="article clearfix">
    				<div class="article-body article-margin-left float-left clearfix">
@@ -381,7 +375,8 @@
 						<p class="article-text">
 						“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
 						</p>
-	   		</article>
+	   		</div>
+	   	</article>
 	   		<footer class="article-footer article-body article-margin-left float-left clearfix">
 	   			<p class="article-caption caption">A version of this article appears in print on March 18, 2014, on Page A1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today's Paper | Subscribe</p>
 	   		</footer>
@@ -898,6 +893,7 @@
 	   							Crossword
 	   						</a>   						
 	   					</li>
+	   				</ul>
 	   					<ul class="index-list-smaller">
 	   						<li class="index-tabs-smaller">
 	   							<a class="index-links-smaller" href="#">
@@ -924,22 +920,21 @@
 	   								Education Rate
 	   							</a>
 	   						</li>
-
 	   						<li class="index-tabs-smaller">
 	   							<a class="index-links-smaller" href="#">
 	   								Mobile Applications
 	   							</a>
 	   						</li>
-
 	   						<li class="index-tabs-smaller">
 	   							<a class="index-links-smaller" href="#">
 	   								Replica Editions
 	   							</a>
 	   						</li>
-
 	   					</ul>
-	   			</div>
+	   			</div> <!-- col-2 -->
 	   		</nav>
+ 			</main> <!-- main-container -->
+ 	
 	   		<footer class="main-footer">
 	   			<nav class="main-footer-nav clearfix">
 	   				<ul class="main-footer-list float-left">
@@ -983,14 +978,8 @@
 	   					</li>
 	   				</ul>
 	   			</nav>
-	   			
 	   		</footer>
-
-
-
-
-
-
+	  </div> <!-- main-page -->
     <script src="js/main.js"></script>
   </body>
 </html>
